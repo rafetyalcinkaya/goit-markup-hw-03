@@ -73,7 +73,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .mesaj {
@@ -146,6 +145,8 @@ button {
 
 .boyut-container {
   width: 1128px;
+  align-items: cunter;
+  justify-content: center;
 }
 
 .sec-baslik h2 {
@@ -177,10 +178,15 @@ button {
   flex-direction: column;
 }
 
-.isim-liste{
+.isim-liste {
   display: flex;
   justify-content: space-between;
   gap: 40px;
+  flex-wrap: wrap;
+}
+
+.isim-liste li {
+  text-align: center;
 }
 
 .sec-third h2 {
@@ -222,25 +228,30 @@ button {
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 2%;
-  }
+}
 
-.resim-2{
+.resim-2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
+  padding: 0;
 }
 
-.boyut-container{
+.boyut-container {
   width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.sec-fourth{
+.sec-fourth {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
+  width: 1128px;
 }
 
 .sec-fourth h3 {
@@ -300,15 +311,11 @@ header {
   justify-content: space-between;
 }
 
-.deneme ul {
-  display: flex;
-}
-
 .class-2 {
   display: flex;
   display: inline-flex;
   margin-top: 24px;
-  margin-left: 100px;
+  margin-left: 150px;
   display: flex;
   gap: 40px;
   width: 261px;
@@ -320,6 +327,8 @@ header {
   margin-left: 100px;
   display: flex;
   margin-top: 24px;
+  align-items: center;
+  justify-content: center;
   width: 1154px;
 }
 
@@ -333,11 +342,16 @@ header {
 
 .web-baslik-1 {
   display: flex;
-  width: 114px;
+  width: 115px;
   height: 24px;
   margin-top: 24px;
-  margin-left: 1px;
-  margin-bottom: 12px;
+  margin-left: 156px;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto-container {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
