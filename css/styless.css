@@ -331,7 +331,7 @@ button {
   padding: 120px 0;
 }
 
-.sec-third ul{
+.sec-third ul {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -339,10 +339,9 @@ button {
   gap: 32px;
   text-align: center;
   margin: 0 auto;
-
 }
 
-.sec-third h2{
+.sec-third h2 {
   width: 162px;
   height: 40px;
   display: flex;
@@ -350,11 +349,78 @@ button {
   justify-content: center;
   margin: 0 auto;
   text-align: center;
-
+  margin-bottom: 70px;
 }
 
-.sec-third ul li{
+.sec-third ul li {
   width: 264px;
   height: 380px;
 }
 
+.third-div h3 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.sec-fourth {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  flex-direction: row;
+}
+
+.resim-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fourth-div {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px 0;
+}
+
+.sec-fourth h3{
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.sec-fourth h2{
+  width: 218px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.fifth-div{
+  width: 1440px;
+  height: 312px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.sec-fifth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-fifth a{
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.sec-fifth p{
+  max-width: 264px;
+}
