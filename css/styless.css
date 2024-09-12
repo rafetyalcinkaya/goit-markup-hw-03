@@ -263,9 +263,15 @@ button {
   align-items: center;
 }
 
+.container-header a{
+  margin-right: 76px;
+}
+
+
 .container {
   width: 1158px;
   margin: 0 auto;
+  pad: 0 15px;
 }
 
 .first-class {
@@ -278,6 +284,11 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 40px;
+}
+
+.class-2 ul{
+  display: flex;
   gap: 40px;
 }
 
