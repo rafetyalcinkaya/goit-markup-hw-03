@@ -196,6 +196,7 @@ h1 {
 
 .sec-third {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .sec-third li {
@@ -369,15 +370,6 @@ h1 {
   align-items: center;
 }
 
-.third-div {
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 120px 0;
-}
-
 .sec-third ul {
   display: flex;
   align-items: center;
@@ -404,9 +396,36 @@ h1 {
   height: 380px;
 }
 
-.third-div h3 {
-  margin-top: 25px;
-  margin-bottom: 5px;
+.ekip-baslik {
+  margin-bottom: 72px;
+}
+
+.ekip-siralama {
+  display: flex;
+  gap: 24px;
+}
+
+.çalişanlar{
+  text-align: center;
+}
+
+.ekip-liste{
+  width: calc((100% - 72px) / 4);
+  text-align: center;
+  list-style: none;
+  background-color: #ffffff;
+  width:264px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.çalişanlar{
+  padding: 32px 0;
+}
+
+.çalişanlar-isim{
+  text-align: center;
+  margin-bottom: 8px;
+
 }
 
 .sec-fourth {
