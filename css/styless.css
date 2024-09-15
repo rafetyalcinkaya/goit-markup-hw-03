@@ -398,7 +398,6 @@ h1 {
 
 .ekip-baslik {
   margin-bottom: 72px;
-  
 }
 
 .ekip-siralama {
@@ -406,31 +405,34 @@ h1 {
   gap: 24px;
 }
 
-.çalisanlar{
+.çalisanlar {
   text-align: center;
 }
 
-calisanlar-ilk{
+.calisanlar-ilk {
   padding: 32px 0;
 }
 
-.ekip-liste{
-  width: calc((100% - 72px) / 4);
+.calisan-gorevleri {
+  text-align: center;
+}
+
+.ekip-liste {
+  flex-basis: calc((100% - 72px) / 4);
   text-align: center;
   list-style: none;
   background-color: #ffffff;
-  width:264px;
+  width: 264px;
   border-radius: 0px 0px 4px 4px;
 }
 
-.çalisanlar{
+.çalisanlar {
   padding: 32px 0;
 }
 
-.calisanlar-isim{
+.calisanlar-isim {
   text-align: center;
   margin-bottom: 8px;
-
 }
 
 .sec-fourth {
