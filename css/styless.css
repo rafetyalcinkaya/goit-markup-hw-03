@@ -110,7 +110,7 @@ h1 {
   text-align: center;
 }
 
-button {
+.buton {
   background-color: #4d5ae5;
   width: 169px;
   height: 56px;
@@ -134,15 +134,15 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.buton:hover {
   background-color: #404bbf;
 }
 
-button:focus {
+.buton:focus {
   background-color: #404bbf;
 }
 
-button {
+.buton {
   cursor: pointer;
 }
 
@@ -324,7 +324,7 @@ button {
   padding: 24px 0;
 }
 
-.baslik-bas {
+.b-bas {
   max-width: 496px;
 }
 
