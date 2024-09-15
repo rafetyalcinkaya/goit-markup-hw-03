@@ -237,33 +237,12 @@ h1 {
   list-style-type: none;
 }
 
-.sec-fifth {
-  background-color: #2e2f42;
-}
-
 .f-web {
   color: #4d5ae5;
 }
 
 .f-studio {
   color: #f4f4fd;
-}
-
-.sec-fifth a {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 3%;
-  text-decoration: none;
-}
-
-.sec-fifth p {
-  font-family: "Roboto", sans-serif;
-  color: #f4f4fd;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 2½;
 }
 
 .container-header {
@@ -452,18 +431,18 @@ h1 {
   row-gap: 48px;
 }
 
-.app-liste{
+.app-liste {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.app-uygulama{
+.app-uygulama {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
 
-.app-baslik{
+.app-baslik {
   margin-bottom: 72px;
 }
 
@@ -490,19 +469,27 @@ h1 {
   text-align: left;
 }
 
-.sec-fifth {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.son-bolum {
+  padding: 100px 0;
+  background-color: #2e2f42;
 }
 
-.sec-fifth a {
+.foot-a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1666666666666667;
+  text-decoration: none;
+  letter-spacing: 3%;
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
   margin-bottom: 16px;
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
 }
 
-.sec-fifth p {
+.foot-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #f4f4fd;
   max-width: 264px;
 }
