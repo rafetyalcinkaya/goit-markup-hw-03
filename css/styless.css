@@ -19,6 +19,10 @@ li {
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+}
+
 .first-class {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -37,7 +41,7 @@ li {
   color: #2e2f42;
 }
 
-.class-2 {
+.class-iki {
   font-family: "Roboto", sans-serif;
   list-style: none;
   font-weight: 500;
@@ -46,19 +50,19 @@ li {
   letter-spacing: 2%;
 }
 
-.class-2 a {
+.class-iki a {
   color: #2e2f42;
 }
 
-.class-2 a:hover {
+.class-iki a:hover {
   color: #404bbf;
 }
 
-.class-2 a:focus {
+.class-iki a:focus {
   color: #404bbf;
 }
 
-.class-2 a {
+.class-iki a {
   text-decoration: none;
 }
 
@@ -261,12 +265,21 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15px;
 }
 
-.container-header a{
+.container-header a {
   margin-right: 76px;
 }
 
+.ilk-nav-class {
+  display: flex;
+  align-items: center;
+}
+
+.ilk-bolum-class {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .container {
   width: 1158px;
@@ -278,16 +291,17 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 76px;
 }
 
-.class-2 {
+.class-iki {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
 }
 
-.class-2 ul{
+.adrs-ilk{
   display: flex;
   gap: 40px;
 }
@@ -396,12 +410,12 @@ button {
   padding: 120px 0;
 }
 
-.sec-fourth h3{
+.sec-fourth h3 {
   margin-top: 25px;
   margin-bottom: 5px;
 }
 
-.sec-fourth h2{
+.sec-fourth h2 {
   width: 218px;
   height: 40px;
   display: flex;
@@ -412,26 +426,26 @@ button {
   margin-bottom: 70px;
 }
 
-.fifth-div{
+.fifth-div {
   width: 1440px;
   height: 312px;
   margin: 0 auto;
   text-align: left;
 }
 
-.sec-fifth{
+.sec-fifth {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.sec-fifth a{
+.sec-fifth a {
   margin-bottom: 16px;
   display: flex;
   align-items: center;
   margin-top: 40px;
 }
 
-.sec-fifth p{
+.sec-fifth p {
   max-width: 264px;
 }
