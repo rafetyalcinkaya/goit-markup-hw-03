@@ -212,6 +212,7 @@ h1 {
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 2%;
+  padding: 120px 0;
 }
 
 .sec-fourth h3 {
@@ -443,19 +444,27 @@ h1 {
   flex-direction: row;
 }
 
-.resim-2 {
+.resimler-son {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
-.fourth-div {
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 120px 0;
+.app-liste{
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.app-uygulama{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+.app-baslik{
+  margin-bottom: 72px;
 }
 
 .sec-fourth h3 {
