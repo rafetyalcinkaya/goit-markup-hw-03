@@ -50,14 +50,6 @@ img {
   letter-spacing: 2%;
 }
 
-.siralama-iki{
-  margin-bottom: 8px;
-}
-
-.liste-class {
-  width: calc((100% - 72px) / 4);
-}
-
 .class-iki a {
   color: #2e2f42;
 }
@@ -154,26 +146,26 @@ h1 {
   cursor: pointer;
 }
 
-.sec-baslik h3 {
-  color: #2e2f42;
-  font-family: "Roboto", sans-serif;
+.siralama-iki {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2½;
+  letter-spacing: 2%;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
 
-.sec-baslik li {
+.liste-class {
   text-decoration: none;
   list-style-type: none;
+  width: calc((100% - 72px) / 4);
 }
 
 .sec-baslik p {
-  color: #434455;
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2½;
+  letter-spacing: 2%;
+  color: #434455;
 }
 
 .sec-third h2 {
@@ -298,7 +290,7 @@ h1 {
 .container {
   width: 1158px;
   margin: 0 auto;
-  pad: 0 15px;
+  align-items: center;
 }
 
 .first-class {
@@ -348,6 +340,19 @@ h1 {
   padding: 120px 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .first-div {
   display: flex;
   margin: 0 auto;
@@ -357,14 +362,11 @@ h1 {
   gap: 40px;
 }
 
-
 .sec-baslik {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding: 0;
   gap: 24px;
+  margin: 120px 0px;
+  align-items: center;
 }
 
 .third-div {
