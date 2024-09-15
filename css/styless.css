@@ -126,6 +126,12 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 4%;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -301,9 +307,10 @@ button {
   gap: 40px;
 }
 
-.adrs-ilk{
+.adrs-ilk {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 
 .class-3 {
@@ -313,11 +320,20 @@ button {
   gap: 40px;
 }
 
+.siralama-ilk {
+  padding: 24px 0;
+}
+
+.baslik-bas {
+  max-width: 496px;
+}
+
 .sec-button {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 188px 0;
 }
 
 .first-div {
