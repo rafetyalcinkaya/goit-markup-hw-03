@@ -87,7 +87,6 @@ img {
 
 .sec-button {
   background-color: #2e2f42;
-  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +98,6 @@ img {
 
 h1 {
   width: 496px;
-  height: 120px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   background-color: #2e2f42;
@@ -246,6 +244,7 @@ h1 {
 }
 
 .container-header {
+  display: flex;
   width: 1158px;
   height: 72px;
   margin: 0 auto;
@@ -267,6 +266,7 @@ h1 {
 .ilk-bolum-class {
   border-bottom: 1px solid #e7e9fc;
 }
+
 
 .container {
   width: 1158px;
@@ -296,9 +296,10 @@ h1 {
 
 .class-3 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .siralama-ilk {
@@ -362,18 +363,12 @@ h1 {
 
 .sec-third h2 {
   width: 162px;
-  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 70px;
-}
-
-.sec-third ul li {
-  width: 264px;
-  height: 380px;
 }
 
 .ekip-baslik {
@@ -398,7 +393,6 @@ h1 {
 }
 
 .ekip-liste {
-  flex-basis: calc((100% - 72px) / 4);
   text-align: center;
   list-style: none;
   background-color: #ffffff;
@@ -453,20 +447,12 @@ h1 {
 
 .sec-fourth h2 {
   width: 218px;
-  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 70px;
-}
-
-.fifth-div {
-  width: 1440px;
-  height: 312px;
-  margin: 0 auto;
-  text-align: left;
 }
 
 .son-bolum {
@@ -492,4 +478,8 @@ h1 {
   letter-spacing: 2%;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+footer a span {
+  color: #4d5ae5;
 }
