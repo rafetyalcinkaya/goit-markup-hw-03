@@ -188,13 +188,8 @@ h1 {
 }
 
 .sec-fourth h2 {
-  font-family: "Roboto", sans-serif;
-  color: #2e2f42;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  letter-spacing: 2%;
-  padding: 120px 0;
+  
+ 
 }
 
 .sec-fourth h3 {
@@ -323,9 +318,6 @@ h1 {
   padding: 188px 0;
 }
 
-.ikinci-bolum {
-  padding: 120px 0;
-}
 
 .visually-hidden {
   position: absolute;
@@ -418,8 +410,11 @@ h1 {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  padding: 0;
   flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1128px;
+  padding: 120px 0;
 }
 
 .resimler-son {
@@ -428,6 +423,9 @@ h1 {
   gap: 20px;
   column-gap: 24px;
   row-gap: 48px;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
 }
 
 .app-liste {
@@ -439,15 +437,12 @@ h1 {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  
 }
 
 .app-baslik {
   margin-bottom: 72px;
-}
-
-.sec-fourth h3 {
-  margin-top: 25px;
-  margin-bottom: 5px;
+  
 }
 
 .sec-fourth h2 {
@@ -458,12 +453,19 @@ h1 {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 70px;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 2%;
 }
 
 .son-bolum {
   padding: 100px 0;
   background-color: #2e2f42;
 }
+
 
 .foot-a {
   font-weight: 700;
