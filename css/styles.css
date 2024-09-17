@@ -43,7 +43,6 @@ img {
 
 .class-iki {
   display: flex;
-  
 }
 
 .class-iki a {
@@ -61,7 +60,6 @@ img {
 .class-iki a {
   text-decoration: none;
 }
-
 
 .class-3 a:focus {
   color: #404bbf;
@@ -240,9 +238,6 @@ h1 {
   padding: 0 15px;
 }
 
-.container-header a {
-  margin-right: 76px;
-}
 
 .ilk-nav-class {
   display: flex;
@@ -274,20 +269,21 @@ h1 {
 .adrs-ilk {
   gap: 40px;
   display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  
 }
 
-.mail-tel{
+.tum-adrs{
+  list-style-type: none;
+}
+
+.mail-tel {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 2%;
   color: #434455;
-  text-decoration: none;  
+  text-decoration: none;
 }
+
 
 .class-3 {
   display: flex;
@@ -295,7 +291,6 @@ h1 {
   padding: 0;
   justify-content: space-between;
 }
-
 
 .siralama-ilk {
   padding: 24px 0;
@@ -311,7 +306,7 @@ h1 {
   color: #2e2f42;
 }
 
-.siralama-ilk a{
+.siralama-ilk a {
   padding: 0;
   margin: 0;
 }
@@ -493,4 +488,3 @@ h1 {
 footer a span {
   color: #4d5ae5;
 }
-
